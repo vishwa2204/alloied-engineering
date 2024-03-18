@@ -1,11 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Allied Engineering</title>
+
+    <!-- CSS Elements -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bootstrap Elements  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- fontawesome elements  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
-    
+
+
+    <!-- navbar section Start -->
+
+
+    <!-- Navbar one start -->
+
+    <nav class="navbar navbar-expand-lg d-block  rounded">
+        <div class="container-fluid d-flex bg-background justify-content-between px-lg-5 ">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logo.png" alt="logo">
+            </a>
+
+            <div class="collapse navbar-collapse d-flex gap-3 gap-lg-5  justify-content-end" id="navbarSupportedContent"
+                style="width: 25% !important;">
+
+
+                <a href="" class="nave-hidew d-flex justify-content-center gap-3 align-items-center">
+                    <div class="nav-contact-icon">
+                        <i class="fa-solid fa-envelope fa-shake"></i>
+                    </div>
+                    <div class="nav-contact-details  d-none d-md-block">
+                        <span>Mail Us</span>
+                        <h6> info@alloiedengineering.com</h6>
+                    </div>
+                </a>
+                <a href="tel:+91" class="nave-hidew d-flex justify-content-center gap-3 align-items-center">
+                    <div class="nav-contact-icon">
+                        <i class="fa-solid fa-headset fa-shake"></i>
+                    </div>
+                    <div class="nav-contact-details d-none d-md-block">
+                        <span>Contact Us</span>
+                        <h6>+91 98765 43210</h6>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="container-fluid px-lg-5 " id="fixTop"
+            style="background-color: #dd2f35; border-radius: 25px; filter: drop-shadow(0 0 10px var(--color));">
+
+
+            <div class="collapse home-menus navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto me-auto mb-2 gap-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Pipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Machinery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Industrial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+                <div class="nav-social-links d-none d-lg-flex">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- SECOND NAVBAR START -->
+
+    <!-- ///////////////////////////////////////////////////// ofcanvas ///////////////////////////////////////////////////////////////////// -->
+    <nav class="navbar second-navbar py-lg-3   navbar-expand-lg d-lg-none fixed-top">
+        <div class="container-fluid py-3" style="background-color: #dd2f35;  border-radius: 25px;">
+
+            <div class="nav-social-links d-flex d-lg-none">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+
+            <div class="d-flex">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="offcanvas stick-fixed offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="assets/images/logo/1.png" alt="logo">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Pipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Machinery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Industrial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Navbar one end -->
+
+    <!-- navbar section End -->
+
+    <!-- Banner section Start -->
+
+    <section class="banner-section">
+        <div class="banner-container">
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="drops"></div>
+            <div class="banner-content">
+                <h1>Best Engineering work <span> in Coimbatore</span></h1>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illo dicta magni architecto sequi
+                    ducimus.</h4>
+            </div>
+            <div class="banner-images-png">
+                <svg class="svgMove" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color: rgb(249, 112, 16);"></stop>
+                            <stop offset="100%" style="stop-color: rgb(221, 47, 53);"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path id="blob"
+                        d="M454,318Q438,386,374,411Q310,436,245,451.5Q180,467,134.5,417Q89,367,48,308.5Q7,250,36,182.5Q65,115,125,82Q185,49,250,49.5Q315,50,361.5,92.5Q408,135,439,192.5Q470,250,454,318Z"
+                        fill="url(#gradient)"></path>
+                </svg>
+
+                <img class="aaa" src="assets/images/banner/1.png" alt="banner-images-png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner section End -->
+
+
+
+
+
+
+
+
+    <!-- jQuery Elements  -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Elements  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script Elements  -->
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        let dropContainer = document.querySelector('.banner-container');
+        let movieSvg = document.querySelector('.aaa');
+
+        dropContainer.onmousemove = function (e) {
+
+            // console.log(e.pageX, e.pageY);
+
+            let X = e.pageX;
+            let Y = e.pageY;
+
+            movieSvg.style.transform = 'translate(' + X / 30 + 'px, ' + Y / 30 + 'px)';
+
+        }
+
+
+
+
+    </script>
+
 </body>
+
 </html>
