@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allied Engineering</title>
 
+    <link rel="icon" href="assets/images/logo/logo.png">
+
     <!-- CSS Elements -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -77,13 +79,14 @@
                         <a class="nav-link" href="#">
                             Pipes</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Machinery</a>
+                            Pipeline</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Industrial</a>
+                            Machinery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
@@ -171,13 +174,14 @@
                                 <a class="nav-link" href="#">
                                     Pipes</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    Machinery</a>
+                                    Pipeline</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    Industrial</a>
+                                    Machinery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -237,9 +241,72 @@
                 <img class="aaa" src="assets/images/banner/1.png" alt="banner-images-png">
             </div>
         </div>
+        <img src="assets/images/pattern/6.png" class="banner-pattern" alt="banner-pattern">
     </section>
 
     <!-- Banner section End -->
+
+    <!-- Home About Section Start -->
+
+    <section class="home-about-section">
+        <div class="home-about-container container">
+            <div class="home-about-images">
+                <img src="assets/images/used-pic/1.jpg" alt="home-about">
+                <img src="assets/images/used-pic/4.jpg" alt="home-about">
+                <div class="home-about-experience">
+                    <span>15</span>
+                    <h4>Years of Experience</h4>
+                </div>
+            </div>
+
+            <div class="home-about-content">
+                <h4>About us</h4>
+                <h2>Welcome to Alloied Engineering <span>in Coimbatore</span> </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fuga iste sapiente? Vero maiores
+                    dolore perspiciatis. Sit, soluta! Necessitatibus, veritatis?</p>
+
+
+                <hr>
+                <div class="home-about-quality mb-4">
+                    <div class="home-about-now" id="progress">
+                        <span class="progress-value" id="progress-value">
+                            <span class="iq">85</span>
+                            <span>%</span>
+                        </span>
+                    </div>
+
+                    <div class="home-about-details">
+                        <h3>Satisfied Customers</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus minima facilis nam
+                            deleniti magni. Harum?</p>
+                    </div>
+
+                </div>
+
+                <a href="#" class="btn">
+                    <span>View More</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Home About Section End -->
+
+    <!-- What we do Start -->
+
+    <section class="home-whatWeDo-section">
+        <div class="home-whatWeDo-container container">
+            <div class="home-whatWeDo-title">
+                <h5>What We Do</h5>
+                <h2>What Kind of Service we do</h2>
+            </div>
+            <div class="home-whatWeDo-content">
+                 
+            </div>
+        </div>
+    </section>
+
+    <!-- What we do End -->
 
 
 
@@ -273,9 +340,23 @@
         }
 
 
-
-
     </script>
+
+
+    <script>
+
+        // Navbar Toggle 
+
+
+        let calcScrollValue = () => {
+            let scrollProgress = document.querySelector(".home-about-now");
+            let scrollValue = document.querySelector('.iq').innerHTML;
+            scrollProgress.style.background = `conic-gradient(#d82b30 ${scrollValue}%, #000 ${scrollValue}%)`;
+        };
+
+        window.onload = calcScrollValue;
+    </script>
+
 
 </body>
 
