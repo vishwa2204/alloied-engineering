@@ -20,3 +20,266 @@
     overflow: hidden;
 
 }
+
+.about-founder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-founder-details{
+    width: 47%;
+    height: auto;
+}
+
+.about-founder-details span{
+    color: var(--gray);
+    font-weight: 700;
+}
+
+.about-founder-details p{
+    color: var(--black);
+}
+
+.about-founder-details a{
+    color: var(--color2);
+    font-weight: 700;
+}
+
+@media screen and (max-width:600px) {
+    .about-founder-details{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* /////////////////////////////////////////// */
+
+
+/* 
+  <!--///////////////////////// How it Work ////////////////////////////// -->s */
+
+  .howItWorks {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    background-image: url(../Images/Png/dots2.png);
+    padding: 2%;
+}
+
+.howItWorks-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.howItWorks-title {
+    margin-bottom: 3%;
+}
+
+.howItWorks-title h2 {
+    color: var(--color);
+}
+
+.howItWorks-title h2 span {
+    color: var(--black);
+}
+
+
+.howItWorks-container .howItWorks-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.howItWorks-container .howItWorks-content .howItWorks-boxs {
+    width: 30%;
+    height: 230px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--white);
+    align-items: center;
+}
+
+.howItWorks-container .howItWorks-content .howItWorks-boxs .howItWorks-icons {
+    width: 50px;
+    height: 50px;
+
+}
+
+.howItWorks-container .howItWorks-content .howItWorks-boxs .howItWorks-icons img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.howItWorks-container .howItWorks-content .howItWorks-boxs:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.howItWorks-container .howItWorks-content .howItWorks-boxs:hover .howItWorks-icons {
+    scale: 0.5;
+}
+
+
+
+
+@media screen and (max-width:320px) {
+
+
+    /* 
+  <!--///////////////////////// How it Work ////////////////////////////// -->s */
+
+    .howItWorks-container .howItWorks-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs {
+        width: 100%;
+        height: 230px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1%;
+        display: flex;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width:321px) and (max-width:425px) {
+    /* 
+  <!--///////////////////////// How it Work ////////////////////////////// -->s */
+
+    .howItWorks-container .howItWorks-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs {
+        width: 100%;
+        height: 230px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1%;
+        display: flex;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width:426px) and (max-width:600px) {
+
+    /* 
+  <!--///////////////////////// How it Work ////////////////////////////// -->s */
+
+    .howItWorks-container .howItWorks-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs {
+        width: 100%;
+        height: 230px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1%;
+        display: flex;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+
+    /* 
+  <!--///////////////////////// How it Work ////////////////////////////// -->s */
+
+    .howItWorks-container .howItWorks-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs {
+        width: 47%;
+        height: 230px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1%;
+        display: flex;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs .howItWorks-icons {
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {
+
+   
+    /* 
+  <!--///////////////////////// How it Work ////////////////////////////// -->s */
+
+    .howItWorks-container .howItWorks-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs {
+        width: 47%;
+        height: 230px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1%;
+        display: flex;
+        margin-bottom: 5%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .howItWorks-container .howItWorks-content .howItWorks-boxs .howItWorks-icons {
+        width: 50px;
+        height: 50px;
+
+    }
+
+
+}
